@@ -18,3 +18,7 @@
 	path = _layouts/modules/feed-json
 	url = https://github.com/liquid-utilities/feed-json.git
 	branch = main
+[submodule "feed-rss2"]
+	path = _layouts/modules/feed-rss2
+	url = https://github.com/liquid-utilities/feed-rss2.git
+	branch = master
