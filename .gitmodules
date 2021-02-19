@@ -2,3 +2,7 @@
 	path = _includes/modules/includes-attribution
 	url = https://github.com/liquid-utilities/includes-attribution.git
 	branch = main
+[submodule "includes-translate"]
+	path = _includes/modules/includes-translate
+	url = https://github.com/liquid-utilities/includes-translate.git
+	branch = master
