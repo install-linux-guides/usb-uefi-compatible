@@ -17,7 +17,7 @@ title: USB UEFI Compatible
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Collection of guides for installing Linux to USB drive compatible with UEFI hosts
-baseurl: "" # the subpath of your site, e.g. /blog
+# baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://install-linux-guides.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 author: S0AndS0
 twitter_username: S0_And_S0
