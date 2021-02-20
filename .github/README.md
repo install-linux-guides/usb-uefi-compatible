@@ -234,6 +234,8 @@ ______
 
 - [SuperUser -- Linux on UEFI - how to reboot to the UEFI setup screen like Windows 8 can?](https://superuser.com/questions/519718/)
 
+- [Unix StackExchange -- Can I pass through a USB port via qemu Command Line?](https://unix.stackexchange.com/questions/452934/)
+
 - [yourUncleMike -- Installing Linux Mint 18.3 to a thumb drive and configuring it to dual boot with Windows 10](https://yourunclemike.github.io/linux/mint-18.3-cinnamon.html)
 
 
