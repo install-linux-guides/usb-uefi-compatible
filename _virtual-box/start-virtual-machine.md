@@ -116,5 +116,5 @@ Within the Grub menu select _compatibility mode_ and press <kbd>Enter</kbd>
 **[Next Page][next__page]**
 
 
-[next__page]: {{ 'virtual-box/configure-live-boot.html' | absolute_url }} "Steps to preform within live-boot Linux instance prior to installation"
+[next__page]: {{ 'virtual-box/configure-live-boot' | absolute_url }} "Steps to preform within live-boot Linux instance prior to installation"
 

@@ -110,5 +110,5 @@ While within the `Settings` `System` screen, it may be a good idea to click the 
 **[Next Page][next__page]**
 
 
-[next__page]: {{ 'virtual-box/virtual-machine-network.html' | absolute_url }} "Configuring network options for Virtual Machine within Virtual Box"
+[next__page]: {{ 'virtual-box/virtual-machine-network' | absolute_url }} "Configuring network options for Virtual Machine within Virtual Box"
 

@@ -24,5 +24,5 @@ script -ac 'sudo update-initramfs -uv' "${_log_path}"
 [Next Page][next__page]
 
 
-[next__page]: {{ 'first-boot/configure-grub2.html' | absolute_url }} "Grub configurations that mitigate known dual-boot issues"
+[next__page]: {{ 'first-boot/configure-grub2' | absolute_url }} "Grub configurations that mitigate known dual-boot issues"
 

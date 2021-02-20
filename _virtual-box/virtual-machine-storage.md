@@ -146,5 +146,5 @@ Click the `OK` button to confirm current changes to Settings, or use <kbd>Alt</k
 **[Next Page][next__page]**
 
 
-[next__page]: {{ 'virtual-box/virtual-machine-boot.html' | absolute_url }} "Configuring boot options for Virtual Machine within Virtual Box"
+[next__page]: {{ 'virtual-box/virtual-machine-boot' | absolute_url }} "Configuring boot options for Virtual Machine within Virtual Box"
 

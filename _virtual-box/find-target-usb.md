@@ -133,5 +133,5 @@ Click the `OK` button to confirm current changes to `USB Device Filters` and `Se
 **[Next Page][next__page]**
 
 
-[next__page]: {{ 'virtual-box/start-virtual-machine.html' | absolute_url }} "Instructions for starting virtual machine and mitigating some issues"
+[next__page]: {{ 'virtual-box/start-virtual-machine' | absolute_url }} "Instructions for starting virtual machine and mitigating some issues"
 

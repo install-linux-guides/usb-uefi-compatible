@@ -36,5 +36,5 @@ If host has a NVidia graphics card then it is a _good idea_ to enable the latest
 [Next Page][next__page]
 
 
-[next__page]: {{ 'first-boot/update-initramfs.html' | absolute_url }} "Update initial RAM file system"
+[next__page]: {{ 'first-boot/update-initramfs' | absolute_url }} "Update initial RAM file system"
 

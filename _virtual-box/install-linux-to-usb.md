@@ -422,5 +422,5 @@ When `Please remove the installation medium...` line appears tap the <kbd>Enter<
 **[Next Page][next__page]**
 
 
-[next__page]: {{ 'virtual-box/reboot-host-to-bios-menu.html' | absolute_url }} "Steps for rebooting host OS to BIOS menu"
+[next__page]: {{ 'virtual-box/reboot-host-to-bios-menu' | absolute_url }} "Steps for rebooting host OS to BIOS menu"
 

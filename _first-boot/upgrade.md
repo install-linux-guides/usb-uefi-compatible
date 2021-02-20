@@ -35,5 +35,5 @@ Allow upgrade to complete!
 [Next Page][next__page]
 
 
-[next__page]: {{ 'first-boot/drivers.html' | absolute_url }} "Install proprietary drivers if necessary"
+[next__page]: {{ 'first-boot/drivers' | absolute_url }} "Install proprietary drivers if necessary"
 

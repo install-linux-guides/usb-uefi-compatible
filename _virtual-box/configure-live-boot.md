@@ -86,5 +86,5 @@ Also under `Lock settings` turn **off** `Lock the computer after the screensaver
 **[Next Page][next__page]**
 
 
-[next__page]: {{ 'virtual-box/install-linux-to-usb.html' | absolute_url }} "Directions to follow within live-boot instance to install Linux to USB"
+[next__page]: {{ 'virtual-box/install-linux-to-usb' | absolute_url }} "Directions to follow within live-boot instance to install Linux to USB"
 

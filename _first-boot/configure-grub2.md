@@ -55,5 +55,5 @@ script -ac 'sudo update-grub' "${_log_path}"
 [Next Page][next__page]
 
 
-[next__page]: {{ 'first-boot/reboot.html' | absolute_url }} "Cross your fingers and tows for good luck"
+[next__page]: {{ 'first-boot/reboot' | absolute_url }} "Cross your fingers and tows for good luck"
 

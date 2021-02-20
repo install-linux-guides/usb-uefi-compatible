@@ -83,5 +83,5 @@ Under `Network` select `Attached to:` drop down and click `Not attached` option
 **[Next Page][next__page]**
 
 
-[next__page]: {{ 'virtual-box/find-target-usb.html' | absolute_url }} "Steps to target the correct USB device within Virtual Box"
+[next__page]: {{ 'virtual-box/find-target-usb' | absolute_url }} "Steps to target the correct USB device within Virtual Box"
 

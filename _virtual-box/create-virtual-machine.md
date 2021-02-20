@@ -190,5 +190,5 @@ Press `Create` button, then `Continue` button...
 **[Next Page][next__page]**
 
 
-[next__page]: {{ 'virtual-box/virtual-machine-storage.html' | absolute_url }} "Setting up storage for Virtual Machine within Virtual Box"
+[next__page]: {{ 'virtual-box/virtual-machine-storage' | absolute_url }} "Setting up storage for Virtual Machine within Virtual Box"
 
