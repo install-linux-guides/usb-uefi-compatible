@@ -1,10 +1,10 @@
 ---
 title: Upgrade
-description: 
+description: Upgrade install Linux packages
 date: 2021-02-15 00:00:00 -0700
 # date_updated:  # Optional and formatted like 'date' above
 time_to_live: 1800
-layout: post
+layout: page
 
 # attribution:
 #   links:
@@ -30,4 +30,10 @@ script -ac 'sudo apt-get upgrade' "${_log_path}"
 
 
 Allow upgrade to complete!
+
+
+[Next Page][next__page]
+
+
+[next__page]: {{ 'first-boot/drivers.html' | absolute_url }} "Install proprietary drivers if necessary"
 

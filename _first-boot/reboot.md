@@ -1,10 +1,10 @@
 ---
 title: Reboot
-description:
+description: Cross your fingers and tows for good luck
 date: 2021-02-15 04:00:00 -0700
 # date_updated:  # Optional and formatted like 'date' above
 time_to_live: 1800
-layout: post
+layout: page
 ---
 
 
