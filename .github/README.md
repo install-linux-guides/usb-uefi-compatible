@@ -232,6 +232,8 @@ ______
 
 - [Made Mistakes -- Accessing static files in Jekyll](https://mademistakes.com/notes/static-files/)
 
+- [StackOverflow -- Center image horizontally within a div](https://stackoverflow.com/questions/10989238/)
+
 - [SuperUser -- Linux on UEFI - how to reboot to the UEFI setup screen like Windows 8 can?](https://superuser.com/questions/519718/)
 
 - [Unix StackExchange -- Can I pass through a USB port via qemu Command Line?](https://unix.stackexchange.com/questions/452934/)
