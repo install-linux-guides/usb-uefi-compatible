@@ -129,3 +129,9 @@ Beside the `USB Device Filters` select the third USB icon, the one with descript
 
 Click the `OK` button to confirm current changes to `USB Device Filters` and `Settings`, or use <kbd>Alt</kbd> <kbd>O</kbd> keyboard short-cut
 
+
+**[Next Page][next__page]**
+
+
+[next__page]: {{ 'virtual-box/start-virtual-machine.html' | absolute_url }} "Instructions for starting virtual machine and mitigating some issues"
+

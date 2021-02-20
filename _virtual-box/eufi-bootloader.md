@@ -37,3 +37,9 @@ The `Boot` _tab_ should re-appear, use <kbd>Up</kbd>(<kbd>&uarr;</kbd>)/<kbd>Dow
 
 Look for directions near top or bottom of screen such as _Press <kbd>F10</kbd> to Save & Exit_, and press that function key
 
+
+**[Next Section][next__section]**
+
+
+[next__section]: {{ 'first-boot.html' | absolute_url }} "Instructions for first boot of USB installed Linux"
+

@@ -34,3 +34,9 @@ Within `Advanced options` menu select `UEFI Firmware Settings`
 
 Within `UEFI Firmware Settings` menu select `OK`
 
+
+**[Next Page][next__page]**
+
+
+[next__page]: {{ 'virtual-box/eufi-bootloader.html' | absolute_url }} "Configuring bootloader for booting from USB Grub2 before built-in drive of host"
+

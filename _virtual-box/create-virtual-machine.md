@@ -186,3 +186,9 @@ Press `Create` button, then `Continue` button...
        src="{{ 'assets/print-screen/virtual-box/create-virtual-machine/create-warning/create-warning.jpeg' | absolute_url }}" />
 </picture>
 
+
+**[Next Page][next__page]**
+
+
+[next__page]: {{ 'virtual-box/virtual-machine-storage.html' | absolute_url }} "Setting up storage for Virtual Machine within Virtual Box"
+

@@ -79,3 +79,9 @@ Under `Network` select `Attached to:` drop down and click `Not attached` option
 
 > Note, seems disabling the network is only required for EUFI installation to USB to avoid freezing of installer
 
+
+**[Next Page][next__page]**
+
+
+[next__page]: {{ 'virtual-box/find-target-usb.html' | absolute_url }} "Steps to target the correct USB device within Virtual Box"
+

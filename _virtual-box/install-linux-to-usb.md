@@ -418,3 +418,9 @@ Click the `Menu` icon (lower left corner) and select `Quit`...
 
 When `Please remove the installation medium...` line appears tap the <kbd>Enter</kbd> key and the virtual machine window _should_ close
 
+
+**[Next Page][next__page]**
+
+
+[next__page]: {{ 'virtual-box/reboot-host-to-bios-menu.html' | absolute_url }} "Steps for rebooting host OS to BIOS menu"
+

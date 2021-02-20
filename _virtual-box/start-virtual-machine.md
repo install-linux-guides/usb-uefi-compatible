@@ -112,3 +112,9 @@ Within the Grub menu select _compatibility mode_ and press <kbd>Enter</kbd>
        src="{{ 'assets/print-screen/virtual-box/start-virtual-machine/grub-menu-non-uefi-compatibility-mode/grub-menu-non-uefi-compatibility-mode.jpeg' | absolute_url }}" />
 </picture>
 
+
+**[Next Page][next__page]**
+
+
+[next__page]: {{ 'virtual-box/configure-live-boot.html' | absolute_url }} "Steps to preform within live-boot Linux instance prior to installation"
+
