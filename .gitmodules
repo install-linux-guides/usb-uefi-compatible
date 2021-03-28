@@ -22,3 +22,7 @@
 	path = _layouts/modules/feed-rss2
 	url = https://github.com/liquid-utilities/feed-rss2.git
 	branch = master
+[submodule "includes-picture"]
+	path = _includes/modules/includes-picture
+	url = https://github.com/liquid-utilities/includes-picture.git
+	branch = main
