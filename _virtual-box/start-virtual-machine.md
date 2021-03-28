@@ -5,6 +5,64 @@ date: 2021-02-14 05:00:00 -0700
 # date_updated:  # Optional and formatted like 'date' above
 time_to_live: 1800
 layout: post
+
+pictures:
+  mint-count-down:
+    url:
+      base: assets/print-screen/virtual-box/start-virtual-machine/mint-count-down/
+      filter: relative_url
+
+    img:
+      alt: Print screen image of Virtual Machine boot count down for Mint live CD
+      src: mint-count-down.jpeg
+      width: 640
+      height: 480
+      loading: lazy
+      decoding: async
+
+    sources:
+      - srcset: mint-count-down.avif
+      - srcset: mint-count-down.jpeg
+      - srcset: mint-count-down.png
+      - srcset: mint-count-down.webp
+
+  grub-menu-select-compatibility-mode:
+    url:
+      base: assets/print-screen/virtual-box/start-virtual-machine/grub-menu-select-compatibility-mode/
+      filter: relative_url
+
+    img:
+      alt: Print screen image of Virtual Machine Grub menu selection
+      src: grub-menu-select-compatibility-mode.jpeg
+      width: 1024
+      height: 768
+      loading: lazy
+      decoding: async
+
+    sources:
+      - srcset: grub-menu-select-compatibility-mode.avif
+      - srcset: grub-menu-select-compatibility-mode.jpeg
+      - srcset: grub-menu-select-compatibility-mode.png
+      - srcset: grub-menu-select-compatibility-mode.webp
+
+  grub-menu-non-uefi-compatibility-mode:
+    url:
+      base: assets/print-screen/virtual-box/start-virtual-machine/grub-menu-non-uefi-compatibility-mode/
+      filter: relative_url
+
+    img:
+      alt: Print screen image of Virtual Box application 
+      src: grub-menu-non-uefi-compatibility-mode.jpeg
+      width: 640
+      height: 480
+      loading: lazy
+      decoding: async
+
+    sources:
+      - srcset: grub-menu-non-uefi-compatibility-mode.avif
+      - srcset: grub-menu-non-uefi-compatibility-mode.jpeg
+      - srcset: grub-menu-non-uefi-compatibility-mode.png
+      - srcset: grub-menu-non-uefi-compatibility-mode.webp
 ---
 
 
@@ -46,22 +104,7 @@ ______
 A new window _should_ show up, if a _count down_ appears press arrow up/down <kbd>#&x2b06;</kbd> <kbd>#&x2b07;</kbd> keys for the Grub menu
 
 
-<picture>
-  <source type="image/avif"
-          scrset="{{ 'assets/print-screen/virtual-box/start-virtual-machine/mint-count-down/mint-count-down.avif' | absolute_url }}" />
-  <source type="image/jpeg"
-          scrset="{{ 'assets/print-screen/virtual-box/start-virtual-machine/mint-count-down/mint-count-down.jpeg' | absolute_url }}" />
-  <source type="image/png"
-          scrset="{{ 'assets/print-screen/virtual-box/start-virtual-machine/mint-count-down/mint-count-down.png' | absolute_url }}" />
-  <source type="image/webp"
-          scrset="{{ 'assets/print-screen/virtual-box/start-virtual-machine/mint-count-down/mint-count-down.webp' | absolute_url }}" />
-  <img alt="Print screen image of Virtual Machine boot count down for Mint live CD"
-       loading="lazy"
-       decoding="async"
-       width="640"
-       height="480"
-       src="{{ 'assets/print-screen/virtual-box/start-virtual-machine/mint-count-down/mint-count-down.jpeg' | absolute_url }}" />
-</picture>
+{% include modules/includes-picture/picture.html name='mint-count-down' %}
 
 
 ______
@@ -74,43 +117,13 @@ ______
 Within the Grub menu select _compatibility mode_ and press <kbd>Enter</kbd>
 
 
-<picture>
-  <source type="image/avif"
-          scrset="{{ 'assets/print-screen/virtual-box/start-virtual-machine/grub-menu-select-compatibility-mode/grub-menu-select-compatibility-mode.avif' | absolute_url }}" />
-  <source type="image/jpeg"
-          scrset="{{ 'assets/print-screen/virtual-box/start-virtual-machine/grub-menu-select-compatibility-mode/grub-menu-select-compatibility-mode.jpeg' | absolute_url }}" />
-  <source type="image/png"
-          scrset="{{ 'assets/print-screen/virtual-box/start-virtual-machine/grub-menu-select-compatibility-mode/grub-menu-select-compatibility-mode.png' | absolute_url }}" />
-  <source type="image/webp"
-          scrset="{{ 'assets/print-screen/virtual-box/start-virtual-machine/grub-menu-select-compatibility-mode/grub-menu-select-compatibility-mode.webp' | absolute_url }}" />
-  <img alt="Print screen image of Virtual Machine Grub menu selection"
-       loading="lazy"
-       decoding="async"
-       width="1024"
-       height="768"
-       src="{{ 'assets/print-screen/virtual-box/start-virtual-machine/grub-menu-select-compatibility-mode/grub-menu-select-compatibility-mode.jpeg' | absolute_url }}" />
-</picture>
+{% include modules/includes-picture/picture.html name='grub-menu-select-compatibility-mode' %}
 
 
 **Warning**, if _`EFI`_ mode was not enabled within Virtual Box _`Settings`_, _`System`_, _`Motherboard`_ configurations, then the following screen may instead be presented...
 
 
-<picture>
-  <source type="image/avif"
-          scrset="{{ 'assets/print-screen/virtual-box/start-virtual-machine/grub-menu-non-uefi-compatibility-mode/grub-menu-non-uefi-compatibility-mode.avif' | absolute_url }}" />
-  <source type="image/jpeg"
-          scrset="{{ 'assets/print-screen/virtual-box/start-virtual-machine/grub-menu-non-uefi-compatibility-mode/grub-menu-non-uefi-compatibility-mode.jpeg' | absolute_url }}" />
-  <source type="image/png"
-          scrset="{{ 'assets/print-screen/virtual-box/start-virtual-machine/grub-menu-non-uefi-compatibility-mode/grub-menu-non-uefi-compatibility-mode.png' | absolute_url }}" />
-  <source type="image/webp"
-          scrset="{{ 'assets/print-screen/virtual-box/start-virtual-machine/grub-menu-non-uefi-compatibility-mode/grub-menu-non-uefi-compatibility-mode.webp' | absolute_url }}" />
-  <img alt="Print screen image of Virtual Box application "
-       loading="lazy"
-       decoding="async"
-       width="640"
-       height="480"
-       src="{{ 'assets/print-screen/virtual-box/start-virtual-machine/grub-menu-non-uefi-compatibility-mode/grub-menu-non-uefi-compatibility-mode.jpeg' | absolute_url }}" />
-</picture>
+{% include modules/includes-picture/picture.html name='grub-menu-non-uefi-compatibility-mode' %}
 
 
 **[Next Page][next__page]**

@@ -5,6 +5,45 @@ date: 2021-02-14 06:00:00 -0700
 # date_updated:  # Optional and formatted like 'date' above
 time_to_live: 1800
 layout: post
+
+pictures:
+  settings-screen-saver:
+    url:
+      base: assets/print-screen/virtual-box/configure-live-boot/settings-screen-saver/
+      filter: relative_url
+
+    img:
+      alt: Print screen image of Virtual Machine Settings Screen Saver
+      src: settings-screen-saver.jpeg
+      width: 800
+      height: 600
+      loading: lazy
+      decoding: async
+
+    sources:
+      - srcset: settings-screen-saver.avif
+      - srcset: settings-screen-saver.jpeg
+      - srcset: settings-screen-saver.png
+      - srcset: settings-screen-saver.webp
+
+  settings-lock-screen:
+    url:
+      base: assets/print-screen/virtual-box/configure-live-boot/settings-lock-screen/
+      filter: relative_url
+
+    img:
+      alt: Print screen image of Virtual Machine Settings Lock Screen
+      src: settings-lock-screen.jpeg
+      width: 800
+      height: 600
+      loading: lazy
+      decoding: async
+
+    sources:
+      - srcset: settings-lock-screen.avif
+      - srcset: settings-lock-screen.jpeg
+      - srcset: settings-lock-screen.png
+      - srcset: settings-lock-screen.webp
 ---
 
 
@@ -31,22 +70,7 @@ layout: post
 Once the desktop is shown, select the `Menu` icon (lower left corner) and type _`Screensaver`_, then press the <kbd>Enter</kbd> key
 
 
-<picture>
-  <source type="image/avif"
-          scrset="{{ 'assets/print-screen/virtual-box/configure-live-boot/settings-screen-saver/settings-screen-saver.avif' | absolute_url }}" />
-  <source type="image/jpeg"
-          scrset="{{ 'assets/print-screen/virtual-box/configure-live-boot/settings-screen-saver/settings-screen-saver.jpeg' | absolute_url }}" />
-  <source type="image/png"
-          scrset="{{ 'assets/print-screen/virtual-box/configure-live-boot/settings-screen-saver/settings-screen-saver.png' | absolute_url }}" />
-  <source type="image/webp"
-          scrset="{{ 'assets/print-screen/virtual-box/configure-live-boot/settings-screen-saver/settings-screen-saver.webp' | absolute_url }}" />
-  <img alt="Print screen image of Virtual Machine Settings Screen Saver"
-       loading="lazy"
-       decoding="async"
-       width="800"
-       height="600"
-       src="{{ 'assets/print-screen/virtual-box/configure-live-boot/settings-screen-saver/settings-screen-saver.jpeg' | absolute_url }}" />
-</picture>
+{% include modules/includes-picture/picture.html name='settings-screen-saver' %}
 
 
 ______
@@ -65,22 +89,7 @@ Under `Lock settings` turn **off** `Lock the computer when put to sleep`
 Also under `Lock settings` turn **off** `Lock the computer after the screensaver starts`
 
 
-<picture>
-  <source type="image/avif"
-          scrset="{{ 'assets/print-screen/virtual-box/configure-live-boot/settings-lock-screen/settings-lock-screen.avif' | absolute_url }}" />
-  <source type="image/jpeg"
-          scrset="{{ 'assets/print-screen/virtual-box/configure-live-boot/settings-lock-screen/settings-lock-screen.jpeg' | absolute_url }}" />
-  <source type="image/png"
-          scrset="{{ 'assets/print-screen/virtual-box/configure-live-boot/settings-lock-screen/settings-lock-screen.png' | absolute_url }}" />
-  <source type="image/webp"
-          scrset="{{ 'assets/print-screen/virtual-box/configure-live-boot/settings-lock-screen/settings-lock-screen.webp' | absolute_url }}" />
-  <img alt="Print screen image of Virtual Machine Settings Lock Screen"
-       loading="lazy"
-       decoding="async"
-       width="800"
-       height="600"
-       src="{{ 'assets/print-screen/virtual-box/configure-live-boot/settings-lock-screen/settings-lock-screen.jpeg' | absolute_url }}" />
-</picture>
+{% include modules/includes-picture/picture.html name='settings-lock-screen' %}
 
 
 **[Next Page][next__page]**

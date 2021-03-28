@@ -11,6 +11,102 @@ layout: post
 #     - text:
 #       href:
 #       title:
+
+pictures:
+  open-virtual-box:
+    url:
+      base: assets/print-screen/virtual-box/create-virtual-machine/open-virtual-box/
+      filter: relative_url
+
+    img:
+      alt: Print screen image of Virtual Box application without any virtual machines configured
+      src: open-virtual-box.jpeg
+      width: 960
+      height: 571
+      loading: lazy
+      decoding: async
+
+    sources:
+      - srcset: open-virtual-box.avif
+      - srcset: open-virtual-box.jpeg
+      - srcset: open-virtual-box.png
+      - srcset: open-virtual-box.webp
+
+  create-virtual-machine:
+    url:
+      base: assets/print-screen/virtual-box/create-virtual-machine/create-virtual-machine/
+      filter: relative_url
+
+    img:
+      alt: Print screen image of Virtual Box application Create Virtual Machine pop-up
+      src: create-virtual-machine.jpeg
+      width: 515
+      height: 418
+      loading: lazy
+      decoding: async
+
+    sources:
+      - srcset: create-virtual-machine.avif
+      - srcset: create-virtual-machine.jpeg
+      - srcset: create-virtual-machine.png
+      - srcset: create-virtual-machine.webp
+
+  memory-size:
+    url:
+      base: assets/print-screen/virtual-box/create-virtual-machine/memory-size/
+      filter: relative_url
+
+    img:
+      alt: Print screen image of Virtual Box application Memory size pop-up
+      src: memory-size.jpeg
+      width: 515
+      height: 418
+      loading: lazy
+      decoding: async
+
+    sources:
+      - srcset: memory-size.avif
+      - srcset: memory-size.jpeg
+      - srcset: memory-size.png
+      - srcset: memory-size.webp
+
+  hard-disk:
+    url:
+      base: assets/print-screen/virtual-box/create-virtual-machine/hard-disk/
+      filter: relative_url
+
+    img:
+      alt: Print screen image of Virtual Box application Hard disk pop-up
+      src: hard-disk.jpeg
+      width: 515
+      height: 418
+      loading: lazy
+      decoding: async
+
+    sources:
+      - srcset: hard-disk.avif
+      - srcset: hard-disk.jpeg
+      - srcset: hard-disk.png
+      - srcset: hard-disk.webp
+
+  create-warning:
+    url:
+      base: assets/print-screen/virtual-box/create-virtual-machine/create-warning/
+      filter: relative_url
+
+    img:
+      alt: Print screen image of Virtual Box application Create warning pop-up
+      src: create-warning.jpeg
+      width: 301
+      height: 229
+      loading: lazy
+      decoding: async
+
+    sources:
+      - srcset: create-warning.avif
+      - srcset: create-warning.jpeg
+      - srcset: create-warning.png
+      - srcset: create-warning.webp
 ---
 
 
@@ -42,22 +138,7 @@ layout: post
 First open of VirtualBox _should_ be similar to...
 
 
-<picture>
-  <source type="image/avif"
-          scrset="{{ 'assets/print-screen/virtual-box/create-virtual-machine/open-virtual-box/open-virtual-box.avif' | absolute_url }}" />
-  <source type="image/jpeg"
-          scrset="{{ 'assets/print-screen/virtual-box/create-virtual-machine/open-virtual-box/open-virtual-box.jpeg' | absolute_url }}" />
-  <source type="image/png"
-          scrset="{{ 'assets/print-screen/virtual-box/create-virtual-machine/open-virtual-box/open-virtual-box.png' | absolute_url }}" />
-  <source type="image/webp"
-          scrset="{{ 'assets/print-screen/virtual-box/create-virtual-machine/open-virtual-box/open-virtual-box.webp' | absolute_url }}" />
-  <img alt="Print screen image of Virtual Box application without any virtual machines configured"
-       loading="lazy"
-       decoding="async"
-       width="960"
-       height="571"
-       src="{{ 'assets/print-screen/virtual-box/create-virtual-machine/open-virtual-box/open-virtual-box.jpeg' | absolute_url }}" />
-</picture>
+{% include modules/includes-picture/picture.html name='open-virtual-box' %}
 
 
 ______
@@ -79,22 +160,7 @@ Under `Type` drop-down select `Linux`
 Under `Version` drop-down select the distribution, and be certain that selection matches the architecture of downloaded ISO eg. _`Other Linux (64-bit)`_
 
 
-<picture>
-  <source type="image/avif"
-          scrset="{{ 'assets/print-screen/virtual-box/create-virtual-machine/create-virtual-machine/create-virtual-machine.avif' | absolute_url }}" />
-  <source type="image/jpeg"
-          scrset="{{ 'assets/print-screen/virtual-box/create-virtual-machine/create-virtual-machine/create-virtual-machine.jpeg' | absolute_url }}" />
-  <source type="image/png"
-          scrset="{{ 'assets/print-screen/virtual-box/create-virtual-machine/create-virtual-machine/create-virtual-machine.png' | absolute_url }}" />
-  <source type="image/webp"
-          scrset="{{ 'assets/print-screen/virtual-box/create-virtual-machine/create-virtual-machine/create-virtual-machine.webp' | absolute_url }}" />
-  <img alt="Print screen image of Virtual Box application Create Virtual Machine pop-up"
-       loading="lazy"
-       decoding="async"
-       width="515"
-       height="418"
-       src="{{ 'assets/print-screen/virtual-box/create-virtual-machine/create-virtual-machine/create-virtual-machine.jpeg' | absolute_url }}" />
-</picture>
+{% include modules/includes-picture/picture.html name='create-virtual-machine' %}
 
 
 ______
@@ -110,22 +176,7 @@ Click `Next` button...
 Under `Memory size` select `2048`MB or greater
 
 
-<picture>
-  <source type="image/avif"
-          scrset="{{ 'assets/print-screen/virtual-box/create-virtual-machine/memory-size/memory-size.avif' | absolute_url }}" />
-  <source type="image/jpeg"
-          scrset="{{ 'assets/print-screen/virtual-box/create-virtual-machine/memory-size/memory-size.jpeg' | absolute_url }}" />
-  <source type="image/png"
-          scrset="{{ 'assets/print-screen/virtual-box/create-virtual-machine/memory-size/memory-size.png' | absolute_url }}" />
-  <source type="image/webp"
-          scrset="{{ 'assets/print-screen/virtual-box/create-virtual-machine/memory-size/memory-size.webp' | absolute_url }}" />
-  <img alt="Print screen image of Virtual Box application Memory size pop-up"
-       loading="lazy"
-       decoding="async"
-       width="515"
-       height="418"
-       src="{{ 'assets/print-screen/virtual-box/create-virtual-machine/memory-size/memory-size.jpeg' | absolute_url }}" />
-</picture>
+{% include modules/includes-picture/picture.html name='memory-size' %}
 
 
 ______
@@ -141,22 +192,7 @@ Click `Next` button...
 Under `Hard disk` select `Do not add a virtual hard disk`
 
 
-<picture>
-  <source type="image/avif"
-          scrset="{{ 'assets/print-screen/virtual-box/create-virtual-machine/hard-disk/hard-disk.avif' | absolute_url }}" />
-  <source type="image/jpeg"
-          scrset="{{ 'assets/print-screen/virtual-box/create-virtual-machine/hard-disk/hard-disk.jpeg' | absolute_url }}" />
-  <source type="image/png"
-          scrset="{{ 'assets/print-screen/virtual-box/create-virtual-machine/hard-disk/hard-disk.png' | absolute_url }}" />
-  <source type="image/webp"
-          scrset="{{ 'assets/print-screen/virtual-box/create-virtual-machine/hard-disk/hard-disk.webp' | absolute_url }}" />
-  <img alt="Print screen image of Virtual Box application Hard disk pop-up"
-       loading="lazy"
-       decoding="async"
-       width="515"
-       height="418"
-       src="{{ 'assets/print-screen/virtual-box/create-virtual-machine/hard-disk/hard-disk.jpeg' | absolute_url }}" />
-</picture>
+{% include modules/includes-picture/picture.html name='hard-disk' %}
 
 
 ______
@@ -169,22 +205,7 @@ ______
 Press `Create` button, then `Continue` button...
 
 
-<picture>
-  <source type="image/avif"
-          scrset="{{ 'assets/print-screen/virtual-box/create-virtual-machine/create-warning/create-warning.avif' | absolute_url }}" />
-  <source type="image/jpeg"
-          scrset="{{ 'assets/print-screen/virtual-box/create-virtual-machine/create-warning/create-warning.jpeg' | absolute_url }}" />
-  <source type="image/png"
-          scrset="{{ 'assets/print-screen/virtual-box/create-virtual-machine/create-warning/create-warning.png' | absolute_url }}" />
-  <source type="image/webp"
-          scrset="{{ 'assets/print-screen/virtual-box/create-virtual-machine/create-warning/create-warning.webp' | absolute_url }}" />
-  <img alt="Print screen image of Virtual Box application Create warning pop-up"
-       loading="lazy"
-       decoding="async"
-       width="301"
-       height="229"
-       src="{{ 'assets/print-screen/virtual-box/create-virtual-machine/create-warning/create-warning.jpeg' | absolute_url }}" />
-</picture>
+{% include modules/includes-picture/picture.html name='create-warning' %}
 
 
 **[Next Page][next__page]**
